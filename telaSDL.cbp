@@ -67,11 +67,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="dependencias/i686-w64-mingw32/include" />
+					<Add directory="dependencias/linux64/instalar/include" />
 				</Compiler>
 				<Linker>
-					<Add option="-lmingw32 -lSDL3" />
-					<Add directory="dependencias/i686-w64-mingw32/lib" />
+					<Add option="-lSDL3" />
+					<Add directory="dependencias/linux64/instalar/lib" />
 				</Linker>
 			</Target>
 		</Build>

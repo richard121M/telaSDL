@@ -5,7 +5,7 @@
 
 // Definições de tamanho da janela e do quadrado
 const float JANELA_LARGURA = 800.0f;
-const float JANELA_ALTURA = 600.0f;
+const float JANELA_ALTURA = 300.0f;
 const float QUADRADO_TAMANHO = 200.0f;
 
 int main(int argc, char* argv[]) {
