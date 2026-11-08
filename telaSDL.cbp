@@ -67,11 +67,11 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="dependencias/linux64/instalar/include" />
+					<Add directory="$(PROJECT_DIR)dependencias/linux64/instalar/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-lSDL3" />
-					<Add directory="dependencias/linux64/instalar/lib" />
+					<Add directory="$(PROJECT_DIR)dependencias/linux64/instalar/lib" />
 				</Linker>
 			</Target>
 		</Build>
