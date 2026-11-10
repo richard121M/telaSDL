@@ -42,7 +42,10 @@
 					<Add directory="dependencias/windows64/x86_64-w64-mingw32/include" />
 				</Compiler>
 				<Linker>
-					<Add option="-lmingw32 -lSDL3" />
+					<Add option="-lmingw32 -lSDL2" />
+					<Add library="mingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
 					<Add directory="dependencias/windows64/x86_64-w64-mingw32/lib" />
 				</Linker>
 			</Target>
@@ -56,7 +59,10 @@
 					<Add directory="dependencias/windows32/i686-w64-mingw32/include" />
 				</Compiler>
 				<Linker>
-					<Add option="-lmingw32 -lSDL3" />
+					<Add option="-lmingw32 -lSDL2" />
+					<Add library="mingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
 					<Add directory="dependencias/windows32/i686-w64-mingw32/lib" />
 				</Linker>
 			</Target>
